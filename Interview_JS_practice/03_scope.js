@@ -20,3 +20,12 @@
 // 	console.log('funcA:', a)
 // }
 // funcA()
+
+
+/*
+	funcC: 1 2 3
+	funcB: 1 2
+	funcA: 1
+*/
+
+

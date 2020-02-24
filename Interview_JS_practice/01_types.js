@@ -12,7 +12,7 @@
 // на самом деле функция - обьект, для удобства возвращает функцию
 
 // Отличие undefined от null
-// undefined - и спользуется, когда переменная не обьявлена
+// undefined - используется, когда переменная не обьявлена
 //             либо обьявлена, но нет никакого значения
 // null - отсутствует значение переменной 
 
@@ -25,16 +25,15 @@
 // 	console.log('The best language is:', language)
 // }
 
-// значения которые приводят к false 
+// значения которые приводят к false при приведении к Boolean
 // '', 0, null, uneefined, NaN, false
-// console.log(Boolean(''));
-// console.log(Boolean(0));
-// console.log(Boolean('0'));
-// console.log(Boolean('Hello'));
-// console.log(Boolean('  '));
-// console.log(Boolean([]));
-// console.log(Boolean({}));
-// значения при приведении к Boolean
+// console.log(Boolean('')); 		// false
+// console.log(Boolean(0)); 		// false
+// console.log(Boolean('0')); 		// true
+// console.log(Boolean('Hello')); 	// true
+// console.log(Boolean('  ')); 		// true
+// console.log(Boolean([])); 		// true  
+// console.log(Boolean({})); 		// true
 
 // =================================================================
 
@@ -57,23 +56,23 @@
 // ==  Сравнивает значения с приведением типов
 // === Сравнивает просто по значению без приведения типов
 
-// console.log(2 == '2')
-// console.log(2 === '2')
-// console.log(undefined == null)
-// console.log(undefined === null)
+// console.log(2 == '2') //true
+// console.log(2 === '2') //false 
+// console.log(undefined == null) //true
+// console.log(undefined === null) //false
 // console.log('0' == false) // true (интерпретирует false в 0)
 
 // =================================================================
 
-// console.log(false == '')
-// console.log(false == [])
-// console.log(false == {})
-// console.log('' == 0)
-// console.log('' == [])
-// console.log('' == {})
-// console.log(0 == [])
-// console.log(0 == {})
-// console.log(0 == null)
+// console.log(false == '')	// true
+// console.log(false == [])	// true
+// console.log(false == {})	// false
+// console.log('' == 0)		// true
+// console.log('' == [])	// true
+// console.log('' == {})	// false
+// console.log(0 == [])		// true
+// console.log(0 == {})		// false
+// console.log(0 == null)	// false
 
 
 
